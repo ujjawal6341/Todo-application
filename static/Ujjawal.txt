@@ -1,0 +1,35 @@
+Steps to Create a Minimal Flask App
+Install Flask: Run the following command in your terminal to install Flask:
+
+Bash
+
+Copy code
+pip install flask
+Create the Application: Create a file named app.py and add the following code:
+
+Python
+
+Copy code
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
+if __name__ == '__main__':
+    app.run(debug=True)
+Run the Application: In your terminal, navigate to the directory where app.py is located and run:
+
+Bash
+
+Copy code
+python app.py
+Access the App: Open your browser and go to http://127.0.0.1:5000/. You should see "Hello, World!" displayed.
+
+Explanation:
+Flask(__name__): Initializes the Flask application.
+@app.route('/'): Defines the route for the home page (/).
+app.run(debug=True): Runs the app in debug mode, which provides helpful error messages during development.
+This is the simplest way to get started with Flask!

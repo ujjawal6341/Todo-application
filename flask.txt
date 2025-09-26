@@ -1,0 +1,11 @@
+Terminal comand:
+1.pip install virtualenv
+2.virtualenv env
+3.Set-ExecutionPolicy unrestricted
+4. .env/Scripts/activated.ps1
+5.pip install Flask-SQLAlchemy
+6. deploy on heroku
+7. heroku command : web:gunicorn app:app
+
+use getbootstrap.com for html, css and js
+
